@@ -77,19 +77,19 @@ export default function Home() {
         <div className="contact-grid">
           <div className="map-card">
             <iframe
-              src="https://www.google.com/maps?q=S%C3%A3o+Paulo%2C%20SP&z=13&output=embed"
+              src="https://www.google.com/maps?q=Curitiba%2C%20PR&z=13&output=embed"
               title="Localização da Auto Garage no Google Maps"
               loading="lazy"
               allowFullScreen
               referrerPolicy="no-referrer-when-downgrade"
             />
-            <div className="map-label"><span className="status-dot" /><div><small>NOSSA LOCALIZAÇÃO</small><strong>São Paulo · SP</strong></div></div>
+            <div className="map-label"><span className="status-dot" /><div><small>NOSSA LOCALIZAÇÃO</small><strong>Curitiba · PR</strong></div></div>
           </div>
           <div className="cta-copy"><p className="eyebrow"><span /> PRONTO PARA VOLTAR À ESTRADA?</p><h2>Vamos colocar<br />seu carro em <em>movimento.</em></h2><p>Fale com a equipe, conte o que seu veículo precisa e solicite seu atendimento.</p><div className="cta-actions"><a className="button button-primary" href="mailto:contato@autogarage.com.br">Solicitar agendamento <Arrow /></a><a className="phone-link" href="tel:+5500000000000"><small>LIGUE PARA NÓS</small><strong>(00) 00000-0000</strong></a></div></div>
         </div>
       </section>
 
-      <footer><div className="footer-main"><div className="footer-brand"><a className="brand" href="#inicio"><span className="brand-mark">AG</span><span>AUTO GARAGE</span></a><p>Manutenção responsável para você seguir em frente com segurança.</p></div><div><small>NAVEGAÇÃO</small><a href="#servicos">Serviços</a><a href="#processo">Processo</a><a href="#oficina">A oficina</a><a href="#faq">Dúvidas</a></div><div><small>CONTATO</small><a href="tel:+5500000000000">(00) 00000-0000</a><a href="mailto:contato@autogarage.com.br">contato@autogarage.com.br</a><p>Segunda a sexta<br />8h às 18h</p></div><div><small>ENDEREÇO</small><p>Rua da Oficina, 100<br />Centro · Sua cidade</p><a href="#contato">Como chegar <Arrow /></a></div></div><div className="footer-bottom"><span>© 2026 Auto Garage. Todos os direitos reservados.</span><a href="#inicio">Voltar ao topo ↑</a></div></footer>
+      <footer><div className="footer-main"><div className="footer-brand"><a className="brand" href="#inicio"><span className="brand-mark">AG</span><span>AUTO GARAGE</span></a><p>Manutenção responsável para você seguir em frente com segurança.</p></div><div><small>NAVEGAÇÃO</small><a href="#servicos">Serviços</a><a href="#processo">Processo</a><a href="#oficina">A oficina</a><a href="#faq">Dúvidas</a></div><div><small>CONTATO</small><a href="tel:+5500000000000">(00) 00000-0000</a><a href="mailto:contato@autogarage.com.br">contato@autogarage.com.br</a><p>Segunda a sexta<br />8h às 18h</p></div><div><small>ENDEREÇO</small><p>Rua da Oficina, 100<br />Centro · Curitiba — PR</p><a href="#contato">Como chegar <Arrow /></a></div></div><div className="footer-bottom"><span>© 2026 Auto Garage. Todos os direitos reservados.</span><a href="#inicio">Voltar ao topo ↑</a></div></footer>
     </main>
   );
 }
